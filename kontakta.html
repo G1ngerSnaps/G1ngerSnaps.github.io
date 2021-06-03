@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_blank">
+    <meta charset="utf-8">
+    <title>Bright Hotell // kontakta</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html" target="_parent">Start</a></li>
+        <li><a href="boka.html" target="_parent">Boka</a></li>
+        <li><a href="hitta.html" target="_parent">Hitta</a></li>
+        <li><a href="kontakta.html" target="_parent">Kontakta</a></li>
+      </ul>
+    </nav>
+    <div class="main-body">
+      <header><b>Kontakta oss</b></header>
+      <section>
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Förnamn</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Efternamn</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Ditt efterman...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="telephone">Telenr</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="telephone" name="telephone" placeholder="Ditt telefonnummer...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="email">Email</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="email" name="email" placeholder="Din epost...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Meddelande</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Skriv ditt meddelande här.." style="height:200px"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
+        </div>
+      </section>
+      <article>
+        <img src="img/hotelgeneric.png" alt="Generic hotell bild">
+      </article>
+      <footer>
+        <a href="mailto:brighthotell@mail.com">Våra E-meil Address</a>
+      </footer>
+    </div>
+  </body>
+</html>
